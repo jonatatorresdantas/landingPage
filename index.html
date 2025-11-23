@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evento 01/02/1987</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background: #222;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .hero {
+      position: relative;
+      text-align: center;
+    }
+
+    .hero img {
+      width: 100%;
+      height: auto;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .btn-comprar {
+      background: #e63946;
+      color: #fff;
+      padding: 15px 30px;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+
+    .btn-comprar:hover {
+      background: #d62828;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+      .hero-text h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Evento 01/02/1987</div>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#ingresso">Ingressos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Imagem de destaque -->
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Imagem do Evento">
+    <div class="hero-text">
+      <h1>Grande Evento – 01 de Fevereiro de 1987</h1>
+      <p>Uma celebração única para marcar esta data especial!</p>
+    </div>
+  </section>
+
+  <!-- Sobre o evento -->
+  <section id="sobre">
+    <h2>Sobre o Evento</h2>
+    <p>Este evento celebra o dia 01/02/1987 com música, palestras e experiências inesquecíveis.</p>
+    
+    <h3>Programação</h3>
+    <ul style="list-style:none; padding:0;">
+      <li>10h – Abertura</li>
+      <li>12h – Palestra principal</li>
+      <li>15h – Show musical</li>
+      <li>18h – Encerramento</li>
+    </ul>
+
+    <!-- Imagem ilustrativa -->
+    <img src="https://images.unsplash.com/photo-1515169067865-5387ec356754?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Público animado" style="width:80%; margin-top:20px; border-radius:10px;">
+  </section>
+
+  <!-- Ingressos -->
+  <section id="ingresso">
+    <h2>Garanta seu ingresso</h2>
+    <img src="https://images.unsplash.com/photo-1525186402429-b4ff38bedbec?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Ingressos" style="width:60%; margin-bottom:20px; border-radius:10px;">
+    <br>
+    <button class="btn-comprar">Comprar Ingresso</button>
+  </section>
+
+  <!-- Rodapé -->
+  <footer id="contato">
+    <p>&copy; 2025 Evento 01/02/1987. Todos os direitos reservados.</p>
+    <p>Contato: contato@evento1987.com</p>
+  </footer>
+
+</body>
+</html>
